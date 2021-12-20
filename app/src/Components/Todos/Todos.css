@@ -1,0 +1,38 @@
+.todos {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-size: 20px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.todos div {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.todos div:nth-child(even) {
+  background-color: rgb(185, 223, 220);
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.deleted {
+  margin-left: 20px;
+  font-size: 20px;
+  color: red;
+}
+
+.check {
+  font-size: 20px;
+  color: green;
+}
+.rootTodo {
+  font-size: 20px;
+  margin-top: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: gray;
+}
